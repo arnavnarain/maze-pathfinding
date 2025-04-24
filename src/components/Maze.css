@@ -1,0 +1,255 @@
+.maze-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.maze-controls {
+  margin-bottom: 20px;
+}
+
+.maze-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.maze-grid {
+  display: grid;
+  gap: 1px;
+  background-color: #333;
+  border: 2px solid #333;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.passage {
+  background-color: white;
+  cursor: pointer;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.visited {
+  background-color: lightblue;
+}
+
+.path {
+  background-color: yellow;
+}
+
+.algorithm-panel {
+  min-width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.algorithm-panel h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.algorithm-control {
+  margin-bottom: 20px;
+}
+
+.algorithm-control label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.algorithm-control select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.monte-carlo-params {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.qlearning-params {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.param-control {
+  margin-bottom: 10px;
+}
+
+.param-control:last-child {
+  margin-bottom: 0;
+}
+
+.param-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.param-control input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input-range-info {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+  text-align: right;
+}
+
+.training-progress {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.training-progress label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.progress-bar-container {
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+  transition: width 0.3s ease;
+}
+
+.progress-percentage {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.monte-carlo-info {
+  margin-bottom: 20px;
+}
+
+.cell-click-instruction {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f0f8ff;
+  border-left: 3px solid #1e90ff;
+  font-size: 14px;
+}
+
+.run-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.run-button:hover {
+  background-color: #45a049;
+}
+
+.run-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.metrics-panel {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.metrics-panel h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.metric-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.metric-value {
+  color: #333;
+  font-family: monospace;
+}
+
+.algorithm-info {
+  margin-top: 20px;
+}
+
+.algorithm-description h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.algorithm-description p {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+} 

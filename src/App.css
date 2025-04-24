@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.control-group {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.control-group label {
+  margin-right: 0.5rem;
+}
+
+.control-group input {
+  width: 60px;
+  padding: 0.25rem;
+  text-align: center;
+}

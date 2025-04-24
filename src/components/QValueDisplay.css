@@ -1,0 +1,57 @@
+.q-value-display {
+  padding: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.q-value-display h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.selected-cell-info-q {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.no-q-cell-selected {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.q-value-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; 
+}
+
+.q-value-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.q-action-label {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #444;
+}
+
+.q-value {
+  font-family: monospace;
+  font-size: 1.1em;
+  color: #000;
+} 

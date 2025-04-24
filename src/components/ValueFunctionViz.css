@@ -1,0 +1,44 @@
+.value-function-viz {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.value-function-viz h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.selected-cell-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.no-cell-selected {
+  padding: 30px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.pan-controls rect:hover {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.pan-instructions {
+  text-align: center;
+  color: #666;
+  margin-top: 4px;
+  font-style: italic;
+}
